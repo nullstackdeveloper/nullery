@@ -1,0 +1,48 @@
+.gallery-box {
+    width: 80%;
+    position: relative;
+}
+
+.btn-prev {
+    left: 10px;
+}
+
+.btn-next {
+    right: 10px;
+}
+
+button {
+    cursor: pointer;
+    position: absolute;
+    top:50%
+}
+
+img {
+    height: 300px;
+    width: 100%;
+    object-fit: scale-down;
+}
+.thumbs-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.thumbs-container img {
+    width: 15%;
+    height: 50px;
+    cursor: pointer;
+    filter: grayscale();
+}
+.content {
+    width: 100vw;
+    height: 100vh;
+}
+
+.selected {
+    filter: none !important;
+    border: 3px solid rgb(92, 92, 92);
+}
+
+.hidden {
+    display: none;
+}

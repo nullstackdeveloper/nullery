@@ -1,0 +1,28 @@
+{
+  "name": "test-galeria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsc -w | reload -b",
+    "postinstall": "copyfiles --flat node_modules/requirejs/require.js scripts/libs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtifexEt/sda-galeria.git"
+  },
+  "author": "Lazlo",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/ArtifexEt/sda-galeria/issues"
+  },
+  "homepage": "https://github.com/ArtifexEt/sda-galeria#readme",
+  "devDependencies": {
+    "reload": "^2.3.1",
+    "typescript": "2.9.2"
+  },
+  "dependencies": {
+    "copyfiles": "^2.0.0",
+    "requirejs": "^2.3.5"
+  }
+}

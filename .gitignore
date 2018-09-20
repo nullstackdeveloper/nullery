@@ -1,0 +1,5 @@
+node_modules/
+#automatically generated
+scripts/js
+scripts/libs
+.idea/
